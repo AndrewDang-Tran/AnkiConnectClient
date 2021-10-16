@@ -16,7 +16,9 @@ setup(
         'anki_helpers',
         'anki_helpers.models',
     ],
-    install_requires=[],
+    install_requires=[
+        'requests'
+    ],
     classifiers=[
         'Intended Audience :: Developers',
         'Programming Language :: Python',
