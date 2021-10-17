@@ -43,7 +43,7 @@ class AnkiConnectClient:
         params = {
             'note': asdict(request)
         }
-        return self._make_request(self, params)
+        return self._make_request(params)
 
 
     def _create_request_body(self, action, params):
